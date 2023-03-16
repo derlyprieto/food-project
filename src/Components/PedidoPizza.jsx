@@ -17,7 +17,7 @@ const PedidoPizza = () => {
 
     useEffect(() => {
       console.log('Se actualizó count dentro del componente de función')
-  }, [name])
+  }, [item])
     
     console.log('Se renderizó el componente de función')
 
